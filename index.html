@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest Async</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header id="header">
+      <div class="header-left">
+        <!-- Logo izquierda -->
+        <img src="./assets/pint.png" alt="Logo" id="logo" />
+      </div>
+      <div class="header-center">
+        <h1>Pinterest Async</h1>
+      </div>
+      <div class="header-right">
+        <!-- img de perfil -->
+        <img src="./assets/perfil.png" alt="Perfil" id="profile-icon" />
+        <!-- btn para modo noche -->
+        <button id="toggle-dark-mode">
+          <img src="./assets/oscuro.png" alt="modo noche" id="night-icon" />
+        </button>
+      </div>
+    </header>
+
+    <!-- Contenedores para la app y msg -->
+    <div id="app"></div>
+    <div id="error-message"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
