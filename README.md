@@ -38,9 +38,7 @@ Instalación
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/MSS1410/PINTEREST-ASYNC.git
-
-   
+   git clone https://github.com/MSS1410/Pinterest-Async-Corrected.git
 
 - Instalar Dependencias:
   
